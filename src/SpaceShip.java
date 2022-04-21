@@ -134,7 +134,9 @@ public class SpaceShip {
     }
 
     public String toString() {
-        return "AsciiArt de La Nave Espacial " + getNombre() + "\n" + nave;
+        return "AsciiArt de La Nave Espacial " + getNombre() + "\n" + nave + "\n" +
+                "Velocidad actual: " + getVelocidadX() + "\n" +
+                "Posición actual: " + getCoordenadaX() + "\n";
     }
 
     public void brake() {
@@ -145,5 +147,4 @@ public class SpaceShip {
     public void emergencyStop() {
         setVelocidadX(0);
     }
-
 }
