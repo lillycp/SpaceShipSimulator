@@ -141,4 +141,8 @@ public class SpaceShip {
         setVelocidadX(getAceleracion() - getVelocidadX());
     }
 
+    public void emergencyStop() {
+        setVelocidadX(0);
+    }
+
 }
