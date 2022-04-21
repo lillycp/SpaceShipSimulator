@@ -9,6 +9,36 @@ public class SpaceShip {
     public float cordenadaY;
     public float direccionX;
     public float direccionY;
+    public String nave = " \n" +
+            "       !\n" +
+            "       ^\n" +
+            "      / \\\n" +
+            "     /___\\\n" +
+            "    |=   =|\n" +
+            "    |     |\n" +
+            "    |     |\n" +
+            "    |     |\n" +
+            "    |     |\n" +
+            "    |     |\n" +
+            "    |     |\n" +
+            "    |     |\n" +
+            "    |     |\n" +
+            "    |     |\n" +
+            "   /|##!##|\\\n" +
+            "  / |##!##| \\\n" +
+            " /  |##!##|  \\\n" +
+            "|  / ^ | ^ \\  |\n" +
+            "| /  ( | )  \\ |\n" +
+            "|/   ( | )   \\|\n" +
+            "    ((   ))\n" +
+            "   ((  :  ))\n" +
+            "   ((  :  ))\n" +
+            "    ((   ))\n" +
+            "     (( ))\n" +
+            "      ( )\n" +
+            "       .\n" +
+            "       .\n" +
+            "       .";
 
     public SpaceShip(String nombre, String matriculaGalactica) {
         this.nombre = nombre;
@@ -101,6 +131,10 @@ public class SpaceShip {
 
         float posicion = getVelocidadX() + getCoordenadaX();
         setCoordenadaX(posicion);
+    }
+
+    public String toString() {
+        return "AsciiArt de La Nave Espacial " + getNombre() + "\n" + nave;
     }
 
 }
