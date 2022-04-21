@@ -139,6 +139,7 @@ public class SpaceShip {
 
     public void brake() {
         setVelocidadX(getAceleracion() - getVelocidadX());
+
     }
 
     public void emergencyStop() {
