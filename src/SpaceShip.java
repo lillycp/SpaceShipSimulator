@@ -137,4 +137,8 @@ public class SpaceShip {
         return "AsciiArt de La Nave Espacial " + getNombre() + "\n" + nave;
     }
 
+    public void brake() {
+        setVelocidadX(getAceleracion() - getVelocidadX());
+    }
+
 }
