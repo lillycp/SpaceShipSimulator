@@ -94,4 +94,13 @@ public class SpaceShip {
         this.direccionY = direccionY;
     }
 
+    public void speedUp(float valorAceleracion) {
+
+        float velocidadNueva = valorAceleracion + getVelocidadX();
+        setVelocidadX(velocidadNueva);
+
+        float posicion = getVelocidadX() + getCoordenadaX();
+        setCoordenadaX(posicion);
+    }
+
 }
