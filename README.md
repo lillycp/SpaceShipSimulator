@@ -2,7 +2,7 @@
 
 El objetivo de este proyecto consiste en la elaboración de un simulador de naves espaciales.
 
-![Nave Espacial El Halcon Milenario](../../Desktop/SpaceShipSimulator/img/mil-fal-2_result.jpg)
+![Nave Espacial El Halcon Milenario](img/mil-fal-2_result.jpg)
 
 Este proyecto se compone de dos Clases:
 
